@@ -1,6 +1,7 @@
 import './globals.css'
 import { Be_Vietnam_Pro } from 'next/font/google'
 import Header from './Header'
+import Footer from './Footer'
 
 export const metadata = {
   title: 'Dinhdjj - Portfolio',
@@ -31,6 +32,7 @@ export default function RootLayout({
         <div className='container mx-auto px-4 py-6 md:px-8 xl:px-12'>
           <Header />
           {children}
+          <Footer className='mt-36' />
         </div>
       </body>
     </html>
